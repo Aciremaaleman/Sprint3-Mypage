@@ -1,0 +1,84 @@
+/* Hoja de estilos */
+
+/* Estilos generales */
+*{
+  text-decoration: none;
+}
+/* Estilos del boton */
+button{
+  background-color: rgb(129, 68, 193);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+}
+button:hover{
+  background-color: rgb(100, 183, 203);
+}
+/* Estilos del footer */
+footer{
+  box-sizing: border-box;
+  background-color: #343A40;
+  width: 100%;
+}
+footer p {
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+/* Estilos de header */
+header{
+  background-color: #343A40;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Pavanam', sans-serif;
+  height: 40px;
+  width: 100%;
+}
+header a{
+  color: white;
+  padding: 5px;
+  width: 100%;
+}
+header a:hover{
+  color: rgb(129, 68, 193);
+}
+
+/* Estilos del main */
+main{
+  box-sizing: border-box;
+  font-family: 'Pavanam', sans-serif;
+  height: 400px;
+  padding: 35px;
+  width: 100%;
+}
+/* Estilos del nav */
+nav{
+  box-sizing: border-box;
+  font-family: 'Pavanam', sans-serif;
+  height: 400px;
+  width: 100%;
+}
+/* Estilos del section */
+section{
+  box-sizing: border-box;
+  background-image: url(../assets/images/img1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+}
+/* Estilos de las clases */
+.style-title{
+  color: white;
+  font-size: 100px;
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  width: 100%;
+}
+.paragraph-nav{
+  font-weight: bold;
+}
