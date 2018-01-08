@@ -1,0 +1,63 @@
+/* Estilos del header */
+
+/* Estilos de los elementos del header */
+*{
+  list-style: none;
+  text-decoration: none;
+}
+header{
+  background-color: #2d2c2c;
+  color: white;
+  width: 100%;
+}
+hr {
+  background-color: white;
+  border: none;
+  height: 3px;
+  width: 2em;
+}
+/* Estilos de los id del header */
+#btn{
+  background-color: #2d2c2c;
+  border: none;
+  float: right;
+  text-decoration: none;
+  width: 50%;
+}
+/* Estilos de las clases de los elementos del header */
+.logo{
+  text-align: center;
+  margin: 20px 0px;
+  width: 50%;
+}
+.show-menu{
+  border-right: 1px solid white;
+  color: white;
+  float: right;
+  margin: 10px 18px;
+  padding: 8px;
+  text-decoration: none;
+}
+.show-menu:hover{
+  background-color: #823ebb;
+  padding: 0.5em;
+}
+.hide-menu{
+  color: white;
+  text-decoration: none;
+}
+.hide-menu:hover{
+  color: #823ebb;
+}
+.disabled-menu {
+  display: none;
+}
+.enabled-menu {
+  display: block;
+}
+.second-header{
+  display: none;
+}
+.first-header{
+  display: block;
+}

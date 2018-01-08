@@ -1,4 +1,41 @@
-@media all and (max-width: 300px){
+@media all and (max-width: 1200px){
+  .img1{
+    padding-right: 16px;
+  }
+  .col-2{
+    width: 100%;
+  }
+  .col-3 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  .col-5 {
+    width: 100%;
+  }
+  .col-9 {
+    width: 100%;
+  }
+  .col-11{
+    width: 100%;
+  }
+  .col-12{
+    width: 100%;
+  }
+  footer{
+    display: table;
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 480px){
+  .second-header{
+    display: block;
+  }
+  .first-header{
+    display: none;
+  }
   .col-2{
     width: 100%;
   }
@@ -16,5 +53,55 @@
   }
   .col-12{
     width: 100%;
+  }
+}
+
+
+@media all and (max-width: 480px){
+  .title-one{
+    color: white;
+    font-size: 20px;
+    font-family: 'Monoton', cursive;
+    position: relative;
+    margin-left: 6.5em;
+    width: 50%;
+    text-align: center;
+    height: 100px;
+  }
+  .img1{
+    position: absolute;
+    width: 96.7%;
+    padding-right: 9.5px;
+  }
+}
+
+@media all and (max-width: 300px){
+  .title-one{
+    color: white;
+    font-size: 10px;
+    font-family: 'Monoton', cursive;
+    position: relative;
+    margin: 3em 8em;
+    text-align: center;
+    height: 50px;
+  }
+  .img1{
+    position: absolute;
+    padding-right: 6px;
+  }
+  main{
+    height: 650px;
+  }
+  footer{
+    display: table;
+    width: 100%;
+  }
+  .style-nav{
+    border: 1px solid #edf2f1;
+    padding: 1px;
+  }
+  .img2{
+    height: 200px;
+    width: 280px;
   }
 }

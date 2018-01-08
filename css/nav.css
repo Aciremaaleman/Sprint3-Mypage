@@ -1,0 +1,18 @@
+/* Estilos del nav */
+nav{
+  font-family: 'Pavanam', sans-serif;
+  height: 550px;
+  width: 100%;
+}
+/* Estilos de las clases del nav */
+.paragraph-nav{
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0px;
+}
+.style-nav{
+  margin: 1px 0px;
+}
+.margin-btn{
+  margin-bottom: 20px;
+}
