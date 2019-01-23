@@ -1,19 +1,16 @@
 /* Estilos del main */
 main{
-  font-family: 'Pavanam', sans-serif;
-  height: 400px;
-  padding: 1em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 250px;
+  padding: 5%;
   width: 100%;
+}
 
-}
-/* Estilos de span dentro del elemneto parrafo de contacto  */
-span{
-  color: purple;
-  font-weight: bold;
-}
 /* Estilos de las clases del main */
 .style-btn{
   background-color: #823ebb;
+  border: none;
+  box-shadow: 5px 8px #dbdbdb;
   border-radius: 5px;
   color: white;
   font-size: 15px;
@@ -23,8 +20,11 @@ span{
 }
 .style-btn:hover{
   background-color: #52e5d1;
+  box-shadow: 5px 8px violet;
 }
-.style-main-contact{
-  letter-spacing: 0.05em;
-  padding: 1em;
+
+.style-main-what, .style-main-contact{
+  text-align: justify;
+  margin: 0% 3% 0% 5%;
 }
+

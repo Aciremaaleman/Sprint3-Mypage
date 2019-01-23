@@ -1,97 +1,111 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Mi página </title>
-    <link href="https://fonts.googleapis.com/css?family=Monoton|Pavanam" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/section.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/media.css">
-  </head>
-  <body>
-    <section class="container">
-      <header class="row first-header">
-        <div class="col-6 logo">
-          <i class="fa fa-film" aria-hidden="true"> Acirema Studios</i>
-        </div>
-        <div class="col-6">
-          <a class="show-menu" href="#">Home</a>
-          <a class="show-menu" href="#">About</a>
-          <a class="show-menu" href="#">Services</a>
-          <a class="show-menu" href="#">Contact</a>
-        </div>
-      </header>
-      <header class="row second-header">
-        <div class="logo">
-          <i class="fa fa-film" aria-hidden="true"> Acirema Studios</i>
-        </div>
-        <button id="btn">
-          <hr>
-          <hr>
-          <hr>
-        </button>
-        <div id="menu" class="disabled-menu">
-          <ul>
-            <li> <a class="hide-menu" href="#">Home</a> </li>
-            <li> <a class="hide-menu" href="#">Services</a> </li>
-            <li> <a class="hide-menu" href="#">About</a> </li>
-            <li> <a class="hide-menu" href="#">Contact</a> </li>
-          </ul>
-        </div>
-      </header>
-      <section class="row">
-        <img class="img1 col-11" src="assets/images/img1.jpg" alt="">
-        <div>
-          <p class="col-11 title-one">Acirema Studio´s</p>
-        </div>
-      </section>
-      <main class="row">
-        <div class="col-9 style-main-what">
-          <h2>What we do?</h2>
-          <p>We make the cartoon or animated movie of your dreams!Just tell us the story and the characters and we will do everything.
-             You will also be the director, designer and producer of the entire project. Start Now!</p>
-          <button class="style-btn" type="button" name="button">Call to Action</button>
-        </div>
-        <div class="col-3 style-main-contact">
-          <h2>Contact Us</h2>
-          <p>Acirema Studio´s Rose Street #1400 GrandCity Genovia
-            <span> 53 68 30 12 </span>
-            <a href="#">studios@gmail.com</a>
-          </p>
-        </div>
-      </main>
-      <nav class="row">
-        <div class="col-4 style-nav">
-          <img class="img2" src="assets/images/img2.jpg" alt="" height="200" width="300">
-          <p class="paragraph-nav">Film</p>
-          <p>If you want something more real, we film real scenes and take photos of a specific place.</p>
-          <button class="style-btn margin-btn" type="button" name="button">Find Out More!</button>
-        </div>
-        <div class="col-4 style-nav">
-          <img class="img2" src="assets/images/img3.jpg" alt="" height="200" width="300">
-          <p class="paragraph-nav">Design</p>
-          <p>We offer you different designs and CHOOSE WHAT YOU LIKE MORE!</p>
-          <button class="style-btn margin-btn" type="button" name="button">Find Out More!</button>
-        </div>
-        <div class="col-4 style-nav">
-          <img class="img2" src="assets/images/img4.jpg" alt="" height="200" width="300">
-          <p class="paragraph-nav">Create and Edit</p>
-          <p>You can follow the edition of your cartoon and you can make changes.</p>
-          <button class="style-btn margin-btn" type="button" name="button">Find Out More!</button>
-        </div>
-      </nav>
-      <footer class="row">
-        <div class="col-12">
-          <p>Copyright <i class="fa fa-copyright" aria-hidden="true"> Your Website 2017</i></p>
-        </div>
-      </footer>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Mi página </title>
+  <link href="https://fonts.googleapis.com/css?family=Monoton|Pavanam" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/section.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+  <!-- <section class="container"> -->
+
+  <header class="row first-header">
+    <div class="col-6 logo">
+      <p> Acirema Studios</p>
+    </div>
+    <nav class="col-4" style="float: right; padding: 2% 0% 2% 10%;">
+      <a class="show-menu-link" href="#">Home</a>
+      <a class="show-menu-link" href="#">About</a>
+      <a class="show-menu-link" href="#">Services</a>
+      <a class="show-menu-link" href="#">Contact</a>
+    </nav>
+  </header>
+
+  <header class="row second-header">
+    <div class="logo">
+      <p> Acirema Studios</p>
+    </div>
+    <button id="btn">
+      <hr>
+      <hr>
+      <hr>
+    </button>
+    <nav id="menu" class="disabled-menu">
+      <ul>
+        <li> <a class="hide-menu" href="#">Home</a> </li>
+        <li> <a class="hide-menu" href="#">Services</a> </li>
+        <li> <a class="hide-menu" href="#">About</a> </li>
+        <li> <a class="hide-menu" href="#">Contact</a> </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="row">
+    <p class="col-12 title-one">Acirema Studio´s</p>
+  </section>
+
+  <main class="row">
+    <div class="col-6 style-main-what">
+      <h2>What we do?</h2>
+      <p>We make the cartoon or animated movie of your dreams!Just tell us the story and the characters and we will do
+        everything.
+        You will also be the director, designer and producer of the entire project. Start Now!</p>
+      <button class="style-btn" type="button" name="button">Call to Action</button>
+    </div>
+    <div class="col-2 style-main-contact">
+      <h2>Contact Us</h2>
+      <p>Acirema Studio´s Rose Street #1400 GrandCity Genovia
+        <p style="color: purple; letter-spacing: 0.05px; line-height: 0.05px;"> 53 68 30 12 </p>
+        <a href="#">studios@gmail.com</a>
+      </p>
+    </div>
+  </main>
+
+  <hr>
+
+  <section class="row section-contact">
+    <section class="col-12">
+      <div class="col-3 style-nav">
+        <img class="img2" src="assets/images/img2.jpg" alt="" height="150" width="200">
+        <p class="title-nav">Film</p>
+        <p class="parragraph-nav">If you want something more real, we film real scenes in a specific place.</p>
+        <button class="style-btn margin-btn" type="button" name="button">Find Out More!</button>
+      </div>
+      <div class="col-3 style-nav">
+        <img class="img2" src="assets/images/img3.jpg" alt="" height="150" width="200">
+        <p class="title-nav">Design</p>
+        <p class="parragraph-nav">We offer you different designs and CHOOSE WHAT YOU LIKE MORE!</p>
+        <button class="style-btn margin-btn" type="button" name="button">Find Out More!</button>
+      </div>
+      <div class="col-3 style-nav">
+        <img class="img2" src="assets/images/img4.jpg" alt="" height="150" width="200">
+        <p class="title-nav">Create and Edit</p>
+        <p class="parragraph-nav">You can follow the edition of your cartoon and you can make changes.</p>
+        <button class="style-btn margin-btn" type="button" name="button">Find Out More!</button>
+      </div>
     </section>
-    <script type="text/javascript" src="js/app.js"></script>
-  </body>
+  </section>
+
+  <footer class="row">
+    <div class="col-12">
+      <p>Copyright <i class="fa fa-copyright" aria-hidden="true"> A Studios 2017</i></p>
+    </div>
+  </footer>
+
+  <!-- </section> -->
+
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+
 </html>

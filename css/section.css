@@ -1,17 +1,21 @@
 /* Estilos a las clases del section */
 .title-one{
   color: white;
-  font-size: 80px;
+  font-size: 450%;
   font-family: 'Monoton', cursive;
-  height: 300px;
-  margin: 80px;
+  height: 200px;
+  margin: 10% 0% 10% 2%;
   position: relative;
-  padding: 1em;
   text-align: center;
-  width: 50%;
+  width: 100%;
 }
 .img1{
-  padding-right: 36px;
   position: absolute;
   width: 100%;
+}
+
+.section-img {
+  background-image: url("../assets/images/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -1,12 +1,21 @@
-/* Sistema grid utilizado */
-* {
+/* Grid System */
+
+body{
   box-sizing: border-box;
+  margin: 0 auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  background-image:  url("../assets/images/annie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.container {
+hr{
+  width: 50%;
   margin: 0 auto;
-  max-width: 1200px;
-  width: 100%;
+  padding: 0.8px;
+  border: none;
+  background-color: rgb(94, 2, 117);
 }
 
 .row::after,
