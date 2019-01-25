@@ -1,0 +1,181 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    background-image: url("../assets/images/annie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1300px;
+}
+
+/* Styles of the header */
+
+header {
+    background-color: #2d2c2c;
+    color: white;
+    width: 100%;
+}
+
+/* Styles of the main */
+main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 250px;
+    padding: 5%;
+    width: 100%;
+}
+
+/* Style of the footer */
+footer {
+    background-color: #2d2c2c;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.8px;
+    border: none;
+    background-color: rgb(94, 2, 117);
+}
+
+
+/* id Styles header view min 300*/
+#btn-menu {
+    background-color: #2d2c2c;
+    border: none;
+    float: right;
+    text-decoration: none;
+    width: 50%;
+}
+
+/* class styles header*/
+.logo {
+    float: left;
+    padding: 1%;
+    margin-left: 10%;
+    position: absolute;
+    text-align: start;
+}
+
+.show-menu-link {
+    border-right: 1px solid white;
+    margin: 3%;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+}
+
+.show-menu-link:hover {
+    background-color: #823ebb;
+    padding: 2%;
+}
+
+.hide-menu {
+    color: white;
+    border-right: 1px solid white;
+    padding: 2%;
+    text-decoration: none;
+}
+
+.hide-menu:hover {
+    color: #823ebb;
+    padding: 1%;
+}
+
+.disabled-menu {
+    display: none;
+}
+
+.enabled-menu {
+    display: block;
+}
+
+.first-header {
+    display: block;
+}
+
+.second-header {
+    display: none;
+}
+
+/* Styles of the section */
+.title-one {
+    color: white;
+    font-size: 450%;
+    font-family: 'Monoton', cursive;
+    height: 200px;
+    margin: 10% 0% 10% 2%;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.img1 {
+    position: absolute;
+    width: 100%;
+}
+
+.section-img {
+    background-image: url("../assets/images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Stylkes of the main classes*/
+.style-btn {
+    background-color: #823ebb;
+    border: none;
+    box-shadow: 5px 8px #dbdbdb;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.style-btn:hover {
+    background-color: #52e5d1;
+    box-shadow: 5px 8px violet;
+}
+
+.style-main-what,
+.style-main-contact {
+    text-align: justify;
+    margin: 0% 3% 0% 5%;
+}
+
+/* styles of section */
+.section-contact {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 400px;
+    width: 100%;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+/* styles of section */
+.title-nav {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px;
+    text-align: center;
+}
+
+.parragraph-nav {
+    text-align: center;
+    line-height: 20px;
+}
+
+.style-nav {
+    margin: 1%;
+}
+
+.style-nav:hover {
+    background-color: rgba(222, 151, 240, 0.24);
+    padding: 1%;
+}
